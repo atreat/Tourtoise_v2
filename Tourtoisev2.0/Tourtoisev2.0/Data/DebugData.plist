@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Tour 1</key>
+	<dict>
+		<key>id</key>
+		<integer>0</integer>
+		<key>title</key>
+		<string>University of Vermont</string>
+		<key>duration</key>
+		<string>3 hours</string>
+	</dict>
+	<key>Tour 2</key>
+	<dict>
+		<key>id</key>
+		<integer>1</integer>
+		<key>title</key>
+		<string>Burlington, Vermont</string>
+		<key>duration</key>
+		<string>2 days</string>
+	</dict>
+	<key>Tour 3</key>
+	<dict>
+		<key>id</key>
+		<integer>3</integer>
+		<key>title</key>
+		<string>Votey</string>
+		<key>duration</key>
+		<string>45 min</string>
+	</dict>
+	<key>Tour 4</key>
+	<dict>
+		<key>id</key>
+		<integer>4</integer>
+		<key>title</key>
+		<string>Boston, MA</string>
+		<key>duration</key>
+		<string>3 days</string>
+	</dict>
+	<key>Tour 5</key>
+	<dict>
+		<key>id</key>
+		<integer>5</integer>
+		<key>title</key>
+		<string>Metropolitan Museum of Art</string>
+		<key>duration</key>
+		<string>4 hours, 30 minutes</string>
+	</dict>
+	<key>Tour 6</key>
+	<dict>
+		<key>id</key>
+		<integer>6</integer>
+		<key>title</key>
+		<string>Church Street, Burlington, Vermont</string>
+		<key>duration</key>
+		<string>2 hours, 30 minutes</string>
+	</dict>
+</dict>
+</plist>

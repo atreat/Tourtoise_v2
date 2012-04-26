@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90217E21548A0FD00E666C6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90217E11548A0FD00E666C6 /* QuartzCore.framework */; };
+		D90217E51548AE3200E666C6 /* DebugData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D90217E41548AE3200E666C6 /* DebugData.plist */; };
+		D91576FC1526A46E00E550DF /* HorizontalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D91576FB1526A46E00E550DF /* HorizontalCell.m */; };
+		D91577091526A48900E550DF /* HorizontalCell_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D91577011526A48900E550DF /* HorizontalCell_iPad.m */; };
+		D915770A1526A48900E550DF /* VerticalCell_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D91577031526A48900E550DF /* VerticalCell_iPad.m */; };
+		D915770B1526A48900E550DF /* VerticalTableViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D91577071526A48900E550DF /* VerticalTableViewController_iPad.m */; };
+		D91577151526A49A00E550DF /* HorizontalCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D915770F1526A49A00E550DF /* HorizontalCell_iPhone.m */; };
+		D91577161526A49A00E550DF /* VerticalCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D91577111526A49A00E550DF /* VerticalCell_iPhone.m */; };
+		D91577171526A49A00E550DF /* VerticalTableViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D91577141526A49A00E550DF /* VerticalTableViewController_iPhone.m */; };
+		D915772A1526A79200E550DF /* VerticalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D91577271526A79200E550DF /* VerticalCell.m */; };
+		D915772B1526A79200E550DF /* VerticalTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D91577291526A79200E550DF /* VerticalTableViewController.m */; };
+		D915773C1527816200E550DF /* SearchNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D915773B1527816200E550DF /* SearchNavigationBar.m */; };
+		D92B719E1524148B00190963 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92B719D1524148B00190963 /* UIKit.framework */; };
+		D92B71A01524148B00190963 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92B719F1524148B00190963 /* Foundation.framework */; };
+		D92B71A21524148B00190963 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D92B71A11524148B00190963 /* CoreGraphics.framework */; };
+		D92B71A81524148B00190963 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D92B71A61524148B00190963 /* InfoPlist.strings */; };
+		D92B71AA1524148B00190963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B71A91524148B00190963 /* main.m */; };
+		D92B71AE1524148B00190963 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B71AD1524148B00190963 /* AppDelegate.m */; };
+		D92B71B11524148B00190963 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92B71AF1524148B00190963 /* MainStoryboard_iPhone.storyboard */; };
+		D92B71B41524148B00190963 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92B71B21524148B00190963 /* MainStoryboard_iPad.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D90217E11548A0FD00E666C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		D90217E41548AE3200E666C6 /* DebugData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DebugData.plist; path = Data/DebugData.plist; sourceTree = "<group>"; };
+		D91576FA1526A46E00E550DF /* HorizontalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalCell.h; sourceTree = "<group>"; };
+		D91576FB1526A46E00E550DF /* HorizontalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalCell.m; sourceTree = "<group>"; };
+		D91577001526A48900E550DF /* HorizontalCell_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalCell_iPad.h; sourceTree = "<group>"; };
+		D91577011526A48900E550DF /* HorizontalCell_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalCell_iPad.m; sourceTree = "<group>"; };
+		D91577021526A48900E550DF /* VerticalCell_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalCell_iPad.h; sourceTree = "<group>"; };
+		D91577031526A48900E550DF /* VerticalCell_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalCell_iPad.m; sourceTree = "<group>"; };
+		D91577051526A48900E550DF /* ControlVariables_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlVariables_iPad.h; sourceTree = "<group>"; };
+		D91577061526A48900E550DF /* VerticalTableViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VerticalTableViewController_iPad.h; path = ../VerticalTableViewController_iPad.h; sourceTree = "<group>"; };
+		D91577071526A48900E550DF /* VerticalTableViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VerticalTableViewController_iPad.m; path = ../VerticalTableViewController_iPad.m; sourceTree = "<group>"; };
+		D915770E1526A49A00E550DF /* HorizontalCell_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalCell_iPhone.h; sourceTree = "<group>"; };
+		D915770F1526A49A00E550DF /* HorizontalCell_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalCell_iPhone.m; sourceTree = "<group>"; };
+		D91577101526A49A00E550DF /* VerticalCell_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalCell_iPhone.h; sourceTree = "<group>"; };
+		D91577111526A49A00E550DF /* VerticalCell_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalCell_iPhone.m; sourceTree = "<group>"; };
+		D91577131526A49A00E550DF /* VerticalTableViewController_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalTableViewController_iPhone.h; sourceTree = "<group>"; };
+		D91577141526A49A00E550DF /* VerticalTableViewController_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalTableViewController_iPhone.m; sourceTree = "<group>"; };
+		D91577191526A4AB00E550DF /* ControlVariables_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlVariables_iPhone.h; sourceTree = "<group>"; };
+		D91577261526A79200E550DF /* VerticalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VerticalCell.h; path = "../View Controller/VerticalCell.h"; sourceTree = "<group>"; };
+		D91577271526A79200E550DF /* VerticalCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VerticalCell.m; path = "../View Controller/VerticalCell.m"; sourceTree = "<group>"; };
+		D91577281526A79200E550DF /* VerticalTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalTableViewController.h; sourceTree = "<group>"; };
+		D91577291526A79200E550DF /* VerticalTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalTableViewController.m; sourceTree = "<group>"; };
+		D91577381527765D00E550DF /* ColorVariables.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ColorVariables.h; path = Utilities/ColorVariables.h; sourceTree = "<group>"; };
+		D915773A1527816200E550DF /* SearchNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchNavigationBar.h; path = "Navigation Views/SearchNavigationBar.h"; sourceTree = "<group>"; };
+		D915773B1527816200E550DF /* SearchNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchNavigationBar.m; path = "Navigation Views/SearchNavigationBar.m"; sourceTree = "<group>"; };
+		D92B71991524148B00190963 /* Tourtoisev2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tourtoisev2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92B719D1524148B00190963 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D92B719F1524148B00190963 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D92B71A11524148B00190963 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D92B71A51524148B00190963 /* Tourtoisev2.0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tourtoisev2.0-Info.plist"; sourceTree = "<group>"; };
+		D92B71A71524148B00190963 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D92B71A91524148B00190963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D92B71AB1524148B00190963 /* Tourtoisev2.0-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tourtoisev2.0-Prefix.pch"; sourceTree = "<group>"; };
+		D92B71AC1524148B00190963 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D92B71AD1524148B00190963 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D92B71B01524148B00190963 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		D92B71B31524148B00190963 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D92B71961524148B00190963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90217E21548A0FD00E666C6 /* QuartzCore.framework in Frameworks */,
+				D92B719E1524148B00190963 /* UIKit.framework in Frameworks */,
+				D92B71A01524148B00190963 /* Foundation.framework in Frameworks */,
+				D92B71A21524148B00190963 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90217E31548ADF200E666C6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D90217E41548AE3200E666C6 /* DebugData.plist */,
+			);
+			name = Data;
+			path = Tourtoisev2.0;
+			sourceTree = "<group>";
+		};
+		D91576F91526A46E00E550DF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D9157739152780F900E550DF /* Navigation Views */,
+				D91577361527763200E550DF /* util - root */,
+				D91576FA1526A46E00E550DF /* HorizontalCell.h */,
+				D91576FB1526A46E00E550DF /* HorizontalCell.m */,
+				D91577261526A79200E550DF /* VerticalCell.h */,
+				D91577271526A79200E550DF /* VerticalCell.m */,
+				D91576FE1526A48900E550DF /* iPad */,
+				D915770C1526A49A00E550DF /* iPhone */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D91576FE1526A48900E550DF /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				D92B71B21524148B00190963 /* MainStoryboard_iPad.storyboard */,
+				D91576FF1526A48900E550DF /* Classes */,
+				D91577041526A48900E550DF /* util */,
+				D91577081526A48900E550DF /* View Controller */,
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		D91576FF1526A48900E550DF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D91577001526A48900E550DF /* HorizontalCell_iPad.h */,
+				D91577011526A48900E550DF /* HorizontalCell_iPad.m */,
+				D91577021526A48900E550DF /* VerticalCell_iPad.h */,
+				D91577031526A48900E550DF /* VerticalCell_iPad.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D91577041526A48900E550DF /* util */ = {
+			isa = PBXGroup;
+			children = (
+				D91577051526A48900E550DF /* ControlVariables_iPad.h */,
+			);
+			name = util;
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		D91577081526A48900E550DF /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D91577061526A48900E550DF /* VerticalTableViewController_iPad.h */,
+				D91577071526A48900E550DF /* VerticalTableViewController_iPad.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		D915770C1526A49A00E550DF /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				D92B71AF1524148B00190963 /* MainStoryboard_iPhone.storyboard */,
+				D915770D1526A49A00E550DF /* Classes */,
+				D91577181526A4AB00E550DF /* util */,
+				D91577121526A49A00E550DF /* ViewController */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		D915770D1526A49A00E550DF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D915770E1526A49A00E550DF /* HorizontalCell_iPhone.h */,
+				D915770F1526A49A00E550DF /* HorizontalCell_iPhone.m */,
+				D91577101526A49A00E550DF /* VerticalCell_iPhone.h */,
+				D91577111526A49A00E550DF /* VerticalCell_iPhone.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D91577121526A49A00E550DF /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D91577131526A49A00E550DF /* VerticalTableViewController_iPhone.h */,
+				D91577141526A49A00E550DF /* VerticalTableViewController_iPhone.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D91577181526A4AB00E550DF /* util */ = {
+			isa = PBXGroup;
+			children = (
+				D91577191526A4AB00E550DF /* ControlVariables_iPhone.h */,
+			);
+			name = util;
+			path = ../Utilities;
+			sourceTree = "<group>";
+		};
+		D91577251526A79200E550DF /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D91577281526A79200E550DF /* VerticalTableViewController.h */,
+				D91577291526A79200E550DF /* VerticalTableViewController.m */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		D91577361527763200E550DF /* util - root */ = {
+			isa = PBXGroup;
+			children = (
+				D91577381527765D00E550DF /* ColorVariables.h */,
+			);
+			name = "util - root";
+			sourceTree = "<group>";
+		};
+		D9157739152780F900E550DF /* Navigation Views */ = {
+			isa = PBXGroup;
+			children = (
+				D915773A1527816200E550DF /* SearchNavigationBar.h */,
+				D915773B1527816200E550DF /* SearchNavigationBar.m */,
+			);
+			name = "Navigation Views";
+			sourceTree = "<group>";
+		};
+		D92B718E1524148A00190963 = {
+			isa = PBXGroup;
+			children = (
+				D90217E31548ADF200E666C6 /* Data */,
+				D92B71A31524148B00190963 /* Tourtoisev2.0 */,
+				D92B719C1524148B00190963 /* Frameworks */,
+				D92B719A1524148B00190963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D92B719A1524148B00190963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D92B71991524148B00190963 /* Tourtoisev2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D92B719C1524148B00190963 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D90217E11548A0FD00E666C6 /* QuartzCore.framework */,
+				D92B719D1524148B00190963 /* UIKit.framework */,
+				D92B719F1524148B00190963 /* Foundation.framework */,
+				D92B71A11524148B00190963 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D92B71A31524148B00190963 /* Tourtoisev2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D92B71AC1524148B00190963 /* AppDelegate.h */,
+				D92B71AD1524148B00190963 /* AppDelegate.m */,
+				D91577251526A79200E550DF /* View Controller */,
+				D91576F91526A46E00E550DF /* Classes */,
+				D92B71A41524148B00190963 /* Supporting Files */,
+			);
+			path = Tourtoisev2.0;
+			sourceTree = "<group>";
+		};
+		D92B71A41524148B00190963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D92B71A51524148B00190963 /* Tourtoisev2.0-Info.plist */,
+				D92B71A61524148B00190963 /* InfoPlist.strings */,
+				D92B71A91524148B00190963 /* main.m */,
+				D92B71AB1524148B00190963 /* Tourtoisev2.0-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D92B71981524148B00190963 /* Tourtoisev2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D92B71BA1524148B00190963 /* Build configuration list for PBXNativeTarget "Tourtoisev2.0" */;
+			buildPhases = (
+				D92B71951524148B00190963 /* Sources */,
+				D92B71961524148B00190963 /* Frameworks */,
+				D92B71971524148B00190963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tourtoisev2.0;
+			productName = Tourtoisev2.0;
+			productReference = D92B71991524148B00190963 /* Tourtoisev2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D92B71901524148A00190963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "BobDog Studio";
+			};
+			buildConfigurationList = D92B71931524148A00190963 /* Build configuration list for PBXProject "Tourtoisev2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D92B718E1524148A00190963;
+			productRefGroup = D92B719A1524148B00190963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D92B71981524148B00190963 /* Tourtoisev2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D92B71971524148B00190963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B71A81524148B00190963 /* InfoPlist.strings in Resources */,
+				D92B71B11524148B00190963 /* MainStoryboard_iPhone.storyboard in Resources */,
+				D92B71B41524148B00190963 /* MainStoryboard_iPad.storyboard in Resources */,
+				D90217E51548AE3200E666C6 /* DebugData.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D92B71951524148B00190963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D92B71AA1524148B00190963 /* main.m in Sources */,
+				D92B71AE1524148B00190963 /* AppDelegate.m in Sources */,
+				D91576FC1526A46E00E550DF /* HorizontalCell.m in Sources */,
+				D91577091526A48900E550DF /* HorizontalCell_iPad.m in Sources */,
+				D915770A1526A48900E550DF /* VerticalCell_iPad.m in Sources */,
+				D915770B1526A48900E550DF /* VerticalTableViewController_iPad.m in Sources */,
+				D91577151526A49A00E550DF /* HorizontalCell_iPhone.m in Sources */,
+				D91577161526A49A00E550DF /* VerticalCell_iPhone.m in Sources */,
+				D91577171526A49A00E550DF /* VerticalTableViewController_iPhone.m in Sources */,
+				D915772A1526A79200E550DF /* VerticalCell.m in Sources */,
+				D915772B1526A79200E550DF /* VerticalTableViewController.m in Sources */,
+				D915773C1527816200E550DF /* SearchNavigationBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D92B71A61524148B00190963 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D92B71A71524148B00190963 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D92B71AF1524148B00190963 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D92B71B01524148B00190963 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D92B71B21524148B00190963 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D92B71B31524148B00190963 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D92B71B81524148B00190963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D92B71B91524148B00190963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D92B71BB1524148B00190963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tourtoisev2.0/Tourtoisev2.0-Prefix.pch";
+				INFOPLIST_FILE = "Tourtoisev2.0/Tourtoisev2.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D92B71BC1524148B00190963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tourtoisev2.0/Tourtoisev2.0-Prefix.pch";
+				INFOPLIST_FILE = "Tourtoisev2.0/Tourtoisev2.0-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D92B71931524148A00190963 /* Build configuration list for PBXProject "Tourtoisev2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92B71B81524148B00190963 /* Debug */,
+				D92B71B91524148B00190963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D92B71BA1524148B00190963 /* Build configuration list for PBXNativeTarget "Tourtoisev2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D92B71BB1524148B00190963 /* Debug */,
+				D92B71BC1524148B00190963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D92B71901524148A00190963 /* Project object */;
+}
