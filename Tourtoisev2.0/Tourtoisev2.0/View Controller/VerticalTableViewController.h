@@ -16,6 +16,17 @@
 {
     NSArray *sectionHeaders;
     
+    // array contatainers for each section
+    NSArray     *   content;
+    
 }
+
+
+@property (nonatomic, retain) NSArray * content;
+
+
+
+
+
 
 @end

@@ -13,6 +13,9 @@
 @end
 
 @implementation VerticalTableViewController
+
+@synthesize content;
+
 //
 //- (id)initWithStyle:(UITableViewStyle)style
 //{
@@ -32,7 +35,14 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    
     sectionHeaders = [NSArray arrayWithObjects:@"Cloud Library", @"Local Library", @"My Tours", @"In Progress", nil];
+    content = [[NSArray alloc] init];
+    
+//    Need to read in from data store to get content
+    
+    
 }
 
 - (void)viewDidUnload

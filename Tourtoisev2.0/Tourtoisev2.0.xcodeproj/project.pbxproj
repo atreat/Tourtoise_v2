@@ -12,7 +12,6 @@
 		D91576FC1526A46E00E550DF /* HorizontalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D91576FB1526A46E00E550DF /* HorizontalCell.m */; };
 		D91577091526A48900E550DF /* HorizontalCell_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D91577011526A48900E550DF /* HorizontalCell_iPad.m */; };
 		D915770A1526A48900E550DF /* VerticalCell_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D91577031526A48900E550DF /* VerticalCell_iPad.m */; };
-		D915770B1526A48900E550DF /* VerticalTableViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D91577071526A48900E550DF /* VerticalTableViewController_iPad.m */; };
 		D91577151526A49A00E550DF /* HorizontalCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D915770F1526A49A00E550DF /* HorizontalCell_iPhone.m */; };
 		D91577161526A49A00E550DF /* VerticalCell_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D91577111526A49A00E550DF /* VerticalCell_iPhone.m */; };
 		D91577171526A49A00E550DF /* VerticalTableViewController_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = D91577141526A49A00E550DF /* VerticalTableViewController_iPhone.m */; };
@@ -27,6 +26,7 @@
 		D92B71AE1524148B00190963 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B71AD1524148B00190963 /* AppDelegate.m */; };
 		D92B71B11524148B00190963 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92B71AF1524148B00190963 /* MainStoryboard_iPhone.storyboard */; };
 		D92B71B41524148B00190963 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92B71B21524148B00190963 /* MainStoryboard_iPad.storyboard */; };
+		D9490F31154F3B4500E4A4EE /* VerticalTableViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D9490F2F154F3B4500E4A4EE /* VerticalTableViewController_iPad.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +39,6 @@
 		D91577021526A48900E550DF /* VerticalCell_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalCell_iPad.h; sourceTree = "<group>"; };
 		D91577031526A48900E550DF /* VerticalCell_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalCell_iPad.m; sourceTree = "<group>"; };
 		D91577051526A48900E550DF /* ControlVariables_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControlVariables_iPad.h; sourceTree = "<group>"; };
-		D91577061526A48900E550DF /* VerticalTableViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VerticalTableViewController_iPad.h; path = ../VerticalTableViewController_iPad.h; sourceTree = "<group>"; };
-		D91577071526A48900E550DF /* VerticalTableViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VerticalTableViewController_iPad.m; path = ../VerticalTableViewController_iPad.m; sourceTree = "<group>"; };
 		D915770E1526A49A00E550DF /* HorizontalCell_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalCell_iPhone.h; sourceTree = "<group>"; };
 		D915770F1526A49A00E550DF /* HorizontalCell_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HorizontalCell_iPhone.m; sourceTree = "<group>"; };
 		D91577101526A49A00E550DF /* VerticalCell_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalCell_iPhone.h; sourceTree = "<group>"; };
@@ -67,6 +65,8 @@
 		D92B71AD1524148B00190963 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D92B71B01524148B00190963 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		D92B71B31524148B00190963 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		D9490F2F154F3B4500E4A4EE /* VerticalTableViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalTableViewController_iPad.m; sourceTree = "<group>"; };
+		D9490F30154F3B4500E4A4EE /* VerticalTableViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalTableViewController_iPad.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,8 +142,8 @@
 		D91577081526A48900E550DF /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D91577061526A48900E550DF /* VerticalTableViewController_iPad.h */,
-				D91577071526A48900E550DF /* VerticalTableViewController_iPad.m */,
+				D9490F30154F3B4500E4A4EE /* VerticalTableViewController_iPad.h */,
+				D9490F2F154F3B4500E4A4EE /* VerticalTableViewController_iPad.m */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -336,13 +336,13 @@
 				D91576FC1526A46E00E550DF /* HorizontalCell.m in Sources */,
 				D91577091526A48900E550DF /* HorizontalCell_iPad.m in Sources */,
 				D915770A1526A48900E550DF /* VerticalCell_iPad.m in Sources */,
-				D915770B1526A48900E550DF /* VerticalTableViewController_iPad.m in Sources */,
 				D91577151526A49A00E550DF /* HorizontalCell_iPhone.m in Sources */,
 				D91577161526A49A00E550DF /* VerticalCell_iPhone.m in Sources */,
 				D91577171526A49A00E550DF /* VerticalTableViewController_iPhone.m in Sources */,
 				D915772A1526A79200E550DF /* VerticalCell.m in Sources */,
 				D915772B1526A79200E550DF /* VerticalTableViewController.m in Sources */,
 				D915773C1527816200E550DF /* SearchNavigationBar.m in Sources */,
+				D9490F31154F3B4500E4A4EE /* VerticalTableViewController_iPad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

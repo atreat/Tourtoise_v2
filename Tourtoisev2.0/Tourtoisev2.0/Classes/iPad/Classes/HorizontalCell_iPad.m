@@ -18,6 +18,7 @@
         // Initialization code
         self.thumbnail = [[UIImageView alloc] initWithFrame:CGRectMake(kArticleCellHorizontalInnerPadding, kArticleCellVerticalInnerPadding, kCellWidth - kArticleCellHorizontalInnerPadding * 2, kCellHeight - kArticleCellVerticalInnerPadding * 2)];
         self.thumbnail.opaque = YES;
+        self.thumbnail.contentMode = UIViewContentModeScaleAspectFit;
         
         [self.contentView addSubview:self.thumbnail];
         

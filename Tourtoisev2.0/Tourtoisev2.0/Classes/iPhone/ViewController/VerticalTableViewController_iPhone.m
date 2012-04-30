@@ -33,6 +33,7 @@
     }
     
     cell.textLabel.text = @"Vertical Table Rows on iPhone";
+    cell.content = [content objectAtIndex:indexPath.row];
     
     return cell;
 }
