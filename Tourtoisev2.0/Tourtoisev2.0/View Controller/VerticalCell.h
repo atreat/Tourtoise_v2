@@ -16,8 +16,8 @@
 {
     
     UITableView     *_horizontalTableView;
-    NSArray         *_content;                      // content should be array Tour objects. Of which each property can be used
-    NSArray         *_duration;         //  duration used for debug
+    NSMutableArray         *_content;                      // content should be array Tour objects. Of which each property can be used
+    NSArray         *_duration;                     //  duration used for debug
     
 }
 
