@@ -66,15 +66,25 @@
         cell = [[HorizontalCell_iPhone alloc] initWithFrame:CGRectMake(0, 0, kCellWidth, kCellHeight)];
     }
     
-	
-    NSString *currentTitle      = [self.content objectAtIndex:indexPath.row];
-    NSString *currentDuration   = [self.duration objectAtIndex:indexPath.row];
+
+//    NSString *currentTitle      = [self.content objectAtIndex:indexPath.row];
+//    NSString *currentDuration   = [self.duration objectAtIndex:indexPath.row];
+
+    NSDictionary    *tour           = [self.content objectAtIndex:indexPath.row];
+    NSLog(@"Tour Happens Here:::::      %@", tour);
+    
+    NSString        *tourTitle      = [tour objectForKey:@"title"];
+    NSString        *tourDuration   = [tour objectForKey:@"duration"];
+    NSString        *tourPath       = [tour objectForKey:@"path"];
+    
+    
     
 //    cell.thumbnail.image = [UIImage imageNamed:[currentArticle objectForKey:@"ImageName"]];
 //    cell.titleLabel.text = [currentArticle objectForKey:@"Title"];
     
-    cell.titleLabel.text = currentTitle; 
-    cell.durationLabel.text = currentDuration;
+    cell.titleLabel.text        = tourTitle; 
+    cell.durationLabel.text     = tourDuration;
+    cell.thumbnail.image        = [UIImage imageNamed:tourPath];
     
     return cell;
     

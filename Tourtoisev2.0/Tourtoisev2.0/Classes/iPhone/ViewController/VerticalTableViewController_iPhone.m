@@ -32,8 +32,11 @@
         cell = [[VerticalCell_iPhone alloc] initWithFrame:CGRectMake(0, 0, tableView.frame.size.width, tableView.frame.size.height)];
     }
     
-    cell.textLabel.text = @"Vertical Table Rows on iPhone";
+    //cell.textLabel.text = @"Vertical Table Rows on iPhone";
+#warning almost there
+
     cell.content = [content objectAtIndex:indexPath.row];
+    NSLog(@"cell %i content ::      %@", indexPath.row, cell.content);
     
     return cell;
 }

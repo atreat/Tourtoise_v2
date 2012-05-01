@@ -37,9 +37,35 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
     
-    sectionHeaders = [NSArray arrayWithObjects:@"Cloud Library", @"Local Library", @"My Tours", @"In Progress", nil];
-    content = [[NSArray alloc] init];
+    NSMutableArray *cloudLib    = [[NSMutableArray alloc] init];
+    NSMutableArray *localLib    = [[NSMutableArray alloc] init];
+    NSMutableArray *myLib       = [[NSMutableArray alloc] init];
+    NSMutableArray *progLib     = [[NSMutableArray alloc] init];
     
+    
+    sectionHeaders = [NSArray arrayWithObjects:@"Cloud Library", @"Local Library", @"My Tours", @"In Progress", nil];
+    content = [[NSArray alloc] initWithObjects:cloudLib, localLib, myLib, progLib, nil];
+    
+    
+    
+    // Read from plist
+    
+    NSString * path = [[NSBundle mainBundle] pathForResource:@"DebugData" ofType:@"plist"];
+    NSDictionary  * plistData = [[NSDictionary alloc] initWithContentsOfFile:path];
+    
+    //NSLog(@"Dictionary      ::      %@", plistData);
+    
+    NSDictionary *tour1 = [plistData objectForKey:@"Tour 1"];
+    //NSLog(@"Tour 1          ::      %@", tour1);
+    
+    NSEnumerator *dictEnumerator = [plistData objectEnumerator];
+    NSDictionary *tour;
+    
+    while (tour = [dictEnumerator nextObject]) {
+        [(NSMutableArray *)[content objectAtIndex:0] addObject:tour];       // put tour dictionary in array of tours for the local library
+    }
+    
+    NSLog(@"Content at index 1      %@", [content objectAtIndex:0]);
 //    Need to read in from data store to get content
     
     

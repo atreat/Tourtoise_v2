@@ -27,6 +27,12 @@
 		D92B71B11524148B00190963 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92B71AF1524148B00190963 /* MainStoryboard_iPhone.storyboard */; };
 		D92B71B41524148B00190963 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92B71B21524148B00190963 /* MainStoryboard_iPad.storyboard */; };
 		D9490F31154F3B4500E4A4EE /* VerticalTableViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D9490F2F154F3B4500E4A4EE /* VerticalTableViewController_iPad.m */; };
+		D9490F42154F454B00E4A4EE /* art.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F3C154F454B00E4A4EE /* art.jpg */; };
+		D9490F43154F454B00E4A4EE /* boston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F3D154F454B00E4A4EE /* boston.jpg */; };
+		D9490F44154F454B00E4A4EE /* burly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F3E154F454B00E4A4EE /* burly.jpg */; };
+		D9490F45154F454B00E4A4EE /* churchst.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F3F154F454B00E4A4EE /* churchst.jpg */; };
+		D9490F46154F454B00E4A4EE /* uvm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F40154F454B00E4A4EE /* uvm.jpg */; };
+		D9490F47154F454B00E4A4EE /* votey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F41154F454B00E4A4EE /* votey.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -67,6 +73,12 @@
 		D92B71B31524148B00190963 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		D9490F2F154F3B4500E4A4EE /* VerticalTableViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalTableViewController_iPad.m; sourceTree = "<group>"; };
 		D9490F30154F3B4500E4A4EE /* VerticalTableViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalTableViewController_iPad.h; sourceTree = "<group>"; };
+		D9490F3C154F454B00E4A4EE /* art.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = art.jpg; sourceTree = "<group>"; };
+		D9490F3D154F454B00E4A4EE /* boston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boston.jpg; sourceTree = "<group>"; };
+		D9490F3E154F454B00E4A4EE /* burly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burly.jpg; sourceTree = "<group>"; };
+		D9490F3F154F454B00E4A4EE /* churchst.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = churchst.jpg; sourceTree = "<group>"; };
+		D9490F40154F454B00E4A4EE /* uvm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uvm.jpg; sourceTree = "<group>"; };
+		D9490F41154F454B00E4A4EE /* votey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = votey.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +99,7 @@
 		D90217E31548ADF200E666C6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D9490F3B154F454B00E4A4EE /* Assets */,
 				D90217E41548AE3200E666C6 /* DebugData.plist */,
 			);
 			name = Data;
@@ -266,6 +279,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D9490F3B154F454B00E4A4EE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D9490F3C154F454B00E4A4EE /* art.jpg */,
+				D9490F3D154F454B00E4A4EE /* boston.jpg */,
+				D9490F3E154F454B00E4A4EE /* burly.jpg */,
+				D9490F3F154F454B00E4A4EE /* churchst.jpg */,
+				D9490F40154F454B00E4A4EE /* uvm.jpg */,
+				D9490F41154F454B00E4A4EE /* votey.jpg */,
+			);
+			name = Assets;
+			path = Data/Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -321,6 +348,12 @@
 				D92B71B11524148B00190963 /* MainStoryboard_iPhone.storyboard in Resources */,
 				D92B71B41524148B00190963 /* MainStoryboard_iPad.storyboard in Resources */,
 				D90217E51548AE3200E666C6 /* DebugData.plist in Resources */,
+				D9490F42154F454B00E4A4EE /* art.jpg in Resources */,
+				D9490F43154F454B00E4A4EE /* boston.jpg in Resources */,
+				D9490F44154F454B00E4A4EE /* burly.jpg in Resources */,
+				D9490F45154F454B00E4A4EE /* churchst.jpg in Resources */,
+				D9490F46154F454B00E4A4EE /* uvm.jpg in Resources */,
+				D9490F47154F454B00E4A4EE /* votey.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
