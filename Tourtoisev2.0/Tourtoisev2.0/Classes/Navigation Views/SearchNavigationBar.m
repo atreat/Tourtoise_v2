@@ -44,11 +44,11 @@
     [search setLeftView:searchImage];
     [search setLeftViewMode:UITextFieldViewModeAlways];
     
-    UIBarButtonItem *barItem = [[UIBarButtonItem alloc] initWithCustomView:search];
+//    UIBarButtonItem *barItem = [[UIBarButtonItem alloc] initWithCustomView:search];
     
-    
-    
-    
+
+
+
 }
 
 @end

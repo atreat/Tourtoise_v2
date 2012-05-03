@@ -55,8 +55,8 @@
     
     //NSLog(@"Dictionary      ::      %@", plistData);
     
-    NSDictionary *tour1 = [plistData objectForKey:@"Tour 1"];
-    //NSLog(@"Tour 1          ::      %@", tour1);
+//    NSDictionary *tour1 = [plistData objectForKey:@"Tour 1"];
+//    NSLog(@"Tour 1          ::      %@", tour1);
     
     NSEnumerator *dictEnumerator = [plistData objectEnumerator];
     NSDictionary *tour;
@@ -67,6 +67,8 @@
     
     NSLog(@"Content at index 1      %@", [content objectAtIndex:0]);
 //    Need to read in from data store to get content
+    
+    self.navigationController.navigationBarHidden = TRUE;
     
     
 }

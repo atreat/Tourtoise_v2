@@ -9,7 +9,8 @@
 #import "VerticalCell.h"
 
 @interface VerticalCell_iPhone : VerticalCell
-//Check VerticalCell parent class for instance variables and properties
+
+// Check VerticalCell parent class for instance variables and properties
 
 
 @end

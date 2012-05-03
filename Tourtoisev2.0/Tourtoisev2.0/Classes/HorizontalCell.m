@@ -7,6 +7,7 @@
 //
 
 #import "HorizontalCell.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation HorizontalCell
 
@@ -25,6 +26,8 @@
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         // Initialization code
+       
+        
     }
     return self;
 }

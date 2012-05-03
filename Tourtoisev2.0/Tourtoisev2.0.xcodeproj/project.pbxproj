@@ -33,6 +33,7 @@
 		D9490F45154F454B00E4A4EE /* churchst.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F3F154F454B00E4A4EE /* churchst.jpg */; };
 		D9490F46154F454B00E4A4EE /* uvm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F40154F454B00E4A4EE /* uvm.jpg */; };
 		D9490F47154F454B00E4A4EE /* votey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F41154F454B00E4A4EE /* votey.jpg */; };
+		D9AAF9B115531DE70078FC42 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AAF9B015531DE70078FC42 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -79,6 +80,7 @@
 		D9490F3F154F454B00E4A4EE /* churchst.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = churchst.jpg; sourceTree = "<group>"; };
 		D9490F40154F454B00E4A4EE /* uvm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uvm.jpg; sourceTree = "<group>"; };
 		D9490F41154F454B00E4A4EE /* votey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = votey.jpg; sourceTree = "<group>"; };
+		D9AAF9B015531DE70078FC42 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9AAF9B115531DE70078FC42 /* CoreData.framework in Frameworks */,
 				D90217E21548A0FD00E666C6 /* QuartzCore.framework in Frameworks */,
 				D92B719E1524148B00190963 /* UIKit.framework in Frameworks */,
 				D92B71A01524148B00190963 /* Foundation.framework in Frameworks */,
@@ -248,6 +251,7 @@
 		D92B719C1524148B00190963 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D9AAF9B015531DE70078FC42 /* CoreData.framework */,
 				D90217E11548A0FD00E666C6 /* QuartzCore.framework */,
 				D92B719D1524148B00190963 /* UIKit.framework */,
 				D92B719F1524148B00190963 /* Foundation.framework */,
