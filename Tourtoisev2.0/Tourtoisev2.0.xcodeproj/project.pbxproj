@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A112832A155316A400157887 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = A1128325155316A400157887 /* NSData+Base64.m */; };
+		A112832B155316A400157887 /* NSString+SHA1.m in Sources */ = {isa = PBXBuildFile; fileRef = A1128327155316A400157887 /* NSString+SHA1.m */; };
+		A112832C155316A400157887 /* ServerRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A1128329155316A400157887 /* ServerRequest.m */; };
+		A171464D154F3AE4003A0966 /* VerticalTableViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = A171464C154F3AE4003A0966 /* VerticalTableViewController_iPad.m */; };
 		D90217E21548A0FD00E666C6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D90217E11548A0FD00E666C6 /* QuartzCore.framework */; };
 		D90217E51548AE3200E666C6 /* DebugData.plist in Resources */ = {isa = PBXBuildFile; fileRef = D90217E41548AE3200E666C6 /* DebugData.plist */; };
 		D91576FC1526A46E00E550DF /* HorizontalCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D91576FB1526A46E00E550DF /* HorizontalCell.m */; };
@@ -37,6 +41,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A1128324155316A400157887 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSData+Base64.h"; path = "Server/NSData+Base64.h"; sourceTree = "<group>"; };
+		A1128325155316A400157887 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSData+Base64.m"; path = "Server/NSData+Base64.m"; sourceTree = "<group>"; };
+		A1128326155316A400157887 /* NSString+SHA1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+SHA1.h"; path = "Server/NSString+SHA1.h"; sourceTree = "<group>"; };
+		A1128327155316A400157887 /* NSString+SHA1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+SHA1.m"; path = "Server/NSString+SHA1.m"; sourceTree = "<group>"; };
+		A1128328155316A400157887 /* ServerRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ServerRequest.h; path = Server/ServerRequest.h; sourceTree = "<group>"; };
+		A1128329155316A400157887 /* ServerRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ServerRequest.m; path = Server/ServerRequest.m; sourceTree = "<group>"; };
+		A171464B154F3AE4003A0966 /* VerticalTableViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalTableViewController_iPad.h; sourceTree = "<group>"; };
+		A171464C154F3AE4003A0966 /* VerticalTableViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalTableViewController_iPad.m; sourceTree = "<group>"; };
 		D90217E11548A0FD00E666C6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D90217E41548AE3200E666C6 /* DebugData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = DebugData.plist; path = Data/DebugData.plist; sourceTree = "<group>"; };
 		D91576FA1526A46E00E550DF /* HorizontalCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HorizontalCell.h; sourceTree = "<group>"; };
@@ -99,14 +111,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A11283211553154A00157887 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A11283231553156400157887 /* Server */,
+				D90217E31548ADF200E666C6 /* Data */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A11283231553156400157887 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				A1128324155316A400157887 /* NSData+Base64.h */,
+				A1128325155316A400157887 /* NSData+Base64.m */,
+				A1128326155316A400157887 /* NSString+SHA1.h */,
+				A1128327155316A400157887 /* NSString+SHA1.m */,
+				A1128328155316A400157887 /* ServerRequest.h */,
+				A1128329155316A400157887 /* ServerRequest.m */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		A171464E154F3E52003A0966 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		D90217E31548ADF200E666C6 /* Data */ = {
 			isa = PBXGroup;
 			children = (
-				D9490F3B154F454B00E4A4EE /* Assets */,
+				A171464E154F3E52003A0966 /* Assets */,
 				D90217E41548AE3200E666C6 /* DebugData.plist */,
 			);
 			name = Data;
-			path = Tourtoisev2.0;
 			sourceTree = "<group>";
 		};
 		D91576F91526A46E00E550DF /* Classes */ = {
@@ -158,8 +198,10 @@
 		D91577081526A48900E550DF /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				D9490F30154F3B4500E4A4EE /* VerticalTableViewController_iPad.h */,
-				D9490F2F154F3B4500E4A4EE /* VerticalTableViewController_iPad.m */,
+
+				A171464B154F3AE4003A0966 /* VerticalTableViewController_iPad.h */,
+				A171464C154F3AE4003A0966 /* VerticalTableViewController_iPad.m */,
+
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -233,7 +275,6 @@
 		D92B718E1524148A00190963 = {
 			isa = PBXGroup;
 			children = (
-				D90217E31548ADF200E666C6 /* Data */,
 				D92B71A31524148B00190963 /* Tourtoisev2.0 */,
 				D92B719C1524148B00190963 /* Frameworks */,
 				D92B719A1524148B00190963 /* Products */,
@@ -265,6 +306,7 @@
 			children = (
 				D92B71AC1524148B00190963 /* AppDelegate.h */,
 				D92B71AD1524148B00190963 /* AppDelegate.m */,
+				A11283211553154A00157887 /* Model */,
 				D91577251526A79200E550DF /* View Controller */,
 				D91576F91526A46E00E550DF /* Classes */,
 				D92B71A41524148B00190963 /* Supporting Files */,
@@ -379,7 +421,12 @@
 				D915772A1526A79200E550DF /* VerticalCell.m in Sources */,
 				D915772B1526A79200E550DF /* VerticalTableViewController.m in Sources */,
 				D915773C1527816200E550DF /* SearchNavigationBar.m in Sources */,
-				D9490F31154F3B4500E4A4EE /* VerticalTableViewController_iPad.m in Sources */,
+
+				A171464D154F3AE4003A0966 /* VerticalTableViewController_iPad.m in Sources */,
+				A112832A155316A400157887 /* NSData+Base64.m in Sources */,
+				A112832B155316A400157887 /* NSString+SHA1.m in Sources */,
+				A112832C155316A400157887 /* ServerRequest.m in Sources */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +515,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tourtoisev2.0/Tourtoisev2.0-Prefix.pch";
 				INFOPLIST_FILE = "Tourtoisev2.0/Tourtoisev2.0-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -479,6 +527,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tourtoisev2.0/Tourtoisev2.0-Prefix.pch";
 				INFOPLIST_FILE = "Tourtoisev2.0/Tourtoisev2.0-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

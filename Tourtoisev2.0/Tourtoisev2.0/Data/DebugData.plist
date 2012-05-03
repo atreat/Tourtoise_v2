@@ -23,6 +23,8 @@
 		<string>Burlington, Vermont</string>
 		<key>duration</key>
 		<string>2 days</string>
+		<key>path</key>
+		<string>burly.jpg</string>
 	</dict>
 	<key>Tour 3</key>
 	<dict>
@@ -34,6 +36,8 @@
 		<string>Votey</string>
 		<key>duration</key>
 		<string>45 min</string>
+		<key>path</key>
+		<string>votey.jpg</string>
 	</dict>
 	<key>Tour 4</key>
 	<dict>
@@ -45,6 +49,8 @@
 		<string>Boston, MA</string>
 		<key>duration</key>
 		<string>3 days</string>
+		<key>path</key>
+		<string>boston.jpg</string>
 	</dict>
 	<key>Tour 5</key>
 	<dict>
@@ -56,6 +62,8 @@
 		<string>Metropolitan Museum of Art</string>
 		<key>duration</key>
 		<string>4 hours, 30 minutes</string>
+		<key>path</key>
+		<string>art.jpg</string>
 	</dict>
 	<key>Tour 6</key>
 	<dict>
@@ -67,6 +75,8 @@
 		<string>Church Street, Burlington, Vermont</string>
 		<key>duration</key>
 		<string>2 hours, 30 minutes</string>
+		<key>path</key>
+		<string>churchst.jpg</string>
 	</dict>
 </dict>
 </plist>
