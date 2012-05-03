@@ -30,14 +30,18 @@
 		D92B71AE1524148B00190963 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D92B71AD1524148B00190963 /* AppDelegate.m */; };
 		D92B71B11524148B00190963 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92B71AF1524148B00190963 /* MainStoryboard_iPhone.storyboard */; };
 		D92B71B41524148B00190963 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D92B71B21524148B00190963 /* MainStoryboard_iPad.storyboard */; };
-		D9490F31154F3B4500E4A4EE /* VerticalTableViewController_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = D9490F2F154F3B4500E4A4EE /* VerticalTableViewController_iPad.m */; };
-		D9490F42154F454B00E4A4EE /* art.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F3C154F454B00E4A4EE /* art.jpg */; };
-		D9490F43154F454B00E4A4EE /* boston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F3D154F454B00E4A4EE /* boston.jpg */; };
-		D9490F44154F454B00E4A4EE /* burly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F3E154F454B00E4A4EE /* burly.jpg */; };
-		D9490F45154F454B00E4A4EE /* churchst.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F3F154F454B00E4A4EE /* churchst.jpg */; };
-		D9490F46154F454B00E4A4EE /* uvm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F40154F454B00E4A4EE /* uvm.jpg */; };
-		D9490F47154F454B00E4A4EE /* votey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9490F41154F454B00E4A4EE /* votey.jpg */; };
 		D9AAF9B115531DE70078FC42 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9AAF9B015531DE70078FC42 /* CoreData.framework */; };
+		D9AAF9BD1553256E0078FC42 /* art.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9AAF9B71553256E0078FC42 /* art.jpg */; };
+		D9AAF9BE1553256E0078FC42 /* boston.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9AAF9B81553256E0078FC42 /* boston.jpg */; };
+		D9AAF9BF1553256E0078FC42 /* burly.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9AAF9B91553256E0078FC42 /* burly.jpg */; };
+		D9AAF9C01553256E0078FC42 /* churchst.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9AAF9BA1553256E0078FC42 /* churchst.jpg */; };
+		D9AAF9C11553256E0078FC42 /* uvm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9AAF9BB1553256E0078FC42 /* uvm.jpg */; };
+		D9AAF9C21553256E0078FC42 /* votey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D9AAF9BC1553256E0078FC42 /* votey.jpg */; };
+		D9BE1D80155329B5004683D3 /* TourtoiseDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9BE1D7E155329B5004683D3 /* TourtoiseDataModel.xcdatamodeld */; };
+		D9BE1D83155333ED004683D3 /* Stop.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BE1D82155333ED004683D3 /* Stop.m */; };
+		D9BE1D86155333ED004683D3 /* Media.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BE1D85155333ED004683D3 /* Media.m */; };
+		D9BE1D89155333EE004683D3 /* Tour.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BE1D88155333EE004683D3 /* Tour.m */; };
+		D9BE1D8C155333EE004683D3 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = D9BE1D8B155333EE004683D3 /* Location.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,15 +88,22 @@
 		D92B71AD1524148B00190963 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D92B71B01524148B00190963 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		D92B71B31524148B00190963 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		D9490F2F154F3B4500E4A4EE /* VerticalTableViewController_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerticalTableViewController_iPad.m; sourceTree = "<group>"; };
-		D9490F30154F3B4500E4A4EE /* VerticalTableViewController_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VerticalTableViewController_iPad.h; sourceTree = "<group>"; };
-		D9490F3C154F454B00E4A4EE /* art.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = art.jpg; sourceTree = "<group>"; };
-		D9490F3D154F454B00E4A4EE /* boston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boston.jpg; sourceTree = "<group>"; };
-		D9490F3E154F454B00E4A4EE /* burly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = burly.jpg; sourceTree = "<group>"; };
-		D9490F3F154F454B00E4A4EE /* churchst.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = churchst.jpg; sourceTree = "<group>"; };
-		D9490F40154F454B00E4A4EE /* uvm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uvm.jpg; sourceTree = "<group>"; };
-		D9490F41154F454B00E4A4EE /* votey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = votey.jpg; sourceTree = "<group>"; };
 		D9AAF9B015531DE70078FC42 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9AAF9B71553256E0078FC42 /* art.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = art.jpg; path = Data/Assets/art.jpg; sourceTree = "<group>"; };
+		D9AAF9B81553256E0078FC42 /* boston.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = boston.jpg; path = Data/Assets/boston.jpg; sourceTree = "<group>"; };
+		D9AAF9B91553256E0078FC42 /* burly.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = burly.jpg; path = Data/Assets/burly.jpg; sourceTree = "<group>"; };
+		D9AAF9BA1553256E0078FC42 /* churchst.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = churchst.jpg; path = Data/Assets/churchst.jpg; sourceTree = "<group>"; };
+		D9AAF9BB1553256E0078FC42 /* uvm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = uvm.jpg; path = Data/Assets/uvm.jpg; sourceTree = "<group>"; };
+		D9AAF9BC1553256E0078FC42 /* votey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = votey.jpg; path = Data/Assets/votey.jpg; sourceTree = "<group>"; };
+		D9BE1D7F155329B5004683D3 /* TourtoiseDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TourtoiseDataModel.xcdatamodel; sourceTree = "<group>"; };
+		D9BE1D81155333ED004683D3 /* Stop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Stop.h; path = Data/Entities/Stop.h; sourceTree = "<group>"; };
+		D9BE1D82155333ED004683D3 /* Stop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Stop.m; path = Data/Entities/Stop.m; sourceTree = "<group>"; };
+		D9BE1D84155333ED004683D3 /* Media.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Media.h; path = Data/Entities/Media.h; sourceTree = "<group>"; };
+		D9BE1D85155333ED004683D3 /* Media.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Media.m; path = Data/Entities/Media.m; sourceTree = "<group>"; };
+		D9BE1D87155333EE004683D3 /* Tour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Tour.h; path = Data/Entities/Tour.h; sourceTree = "<group>"; };
+		D9BE1D88155333EE004683D3 /* Tour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Tour.m; path = Data/Entities/Tour.m; sourceTree = "<group>"; };
+		D9BE1D8A155333EE004683D3 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = Data/Entities/Location.h; sourceTree = "<group>"; };
+		D9BE1D8B155333EE004683D3 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = Data/Entities/Location.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +147,12 @@
 		A171464E154F3E52003A0966 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				D9AAF9B71553256E0078FC42 /* art.jpg */,
+				D9AAF9B81553256E0078FC42 /* boston.jpg */,
+				D9AAF9B91553256E0078FC42 /* burly.jpg */,
+				D9AAF9BA1553256E0078FC42 /* churchst.jpg */,
+				D9AAF9BB1553256E0078FC42 /* uvm.jpg */,
+				D9AAF9BC1553256E0078FC42 /* votey.jpg */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -145,6 +162,15 @@
 			children = (
 				A171464E154F3E52003A0966 /* Assets */,
 				D90217E41548AE3200E666C6 /* DebugData.plist */,
+				D9BE1D7E155329B5004683D3 /* TourtoiseDataModel.xcdatamodeld */,
+				D9BE1D8A155333EE004683D3 /* Location.h */,
+				D9BE1D8B155333EE004683D3 /* Location.m */,
+				D9BE1D87155333EE004683D3 /* Tour.h */,
+				D9BE1D88155333EE004683D3 /* Tour.m */,
+				D9BE1D84155333ED004683D3 /* Media.h */,
+				D9BE1D85155333ED004683D3 /* Media.m */,
+				D9BE1D81155333ED004683D3 /* Stop.h */,
+				D9BE1D82155333ED004683D3 /* Stop.m */,
 			);
 			name = Data;
 			sourceTree = "<group>";
@@ -198,10 +224,8 @@
 		D91577081526A48900E550DF /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-
 				A171464B154F3AE4003A0966 /* VerticalTableViewController_iPad.h */,
 				A171464C154F3AE4003A0966 /* VerticalTableViewController_iPad.m */,
-
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -325,20 +349,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		D9490F3B154F454B00E4A4EE /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				D9490F3C154F454B00E4A4EE /* art.jpg */,
-				D9490F3D154F454B00E4A4EE /* boston.jpg */,
-				D9490F3E154F454B00E4A4EE /* burly.jpg */,
-				D9490F3F154F454B00E4A4EE /* churchst.jpg */,
-				D9490F40154F454B00E4A4EE /* uvm.jpg */,
-				D9490F41154F454B00E4A4EE /* votey.jpg */,
-			);
-			name = Assets;
-			path = Data/Assets;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -394,12 +404,12 @@
 				D92B71B11524148B00190963 /* MainStoryboard_iPhone.storyboard in Resources */,
 				D92B71B41524148B00190963 /* MainStoryboard_iPad.storyboard in Resources */,
 				D90217E51548AE3200E666C6 /* DebugData.plist in Resources */,
-				D9490F42154F454B00E4A4EE /* art.jpg in Resources */,
-				D9490F43154F454B00E4A4EE /* boston.jpg in Resources */,
-				D9490F44154F454B00E4A4EE /* burly.jpg in Resources */,
-				D9490F45154F454B00E4A4EE /* churchst.jpg in Resources */,
-				D9490F46154F454B00E4A4EE /* uvm.jpg in Resources */,
-				D9490F47154F454B00E4A4EE /* votey.jpg in Resources */,
+				D9AAF9BD1553256E0078FC42 /* art.jpg in Resources */,
+				D9AAF9BE1553256E0078FC42 /* boston.jpg in Resources */,
+				D9AAF9BF1553256E0078FC42 /* burly.jpg in Resources */,
+				D9AAF9C01553256E0078FC42 /* churchst.jpg in Resources */,
+				D9AAF9C11553256E0078FC42 /* uvm.jpg in Resources */,
+				D9AAF9C21553256E0078FC42 /* votey.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,12 +431,15 @@
 				D915772A1526A79200E550DF /* VerticalCell.m in Sources */,
 				D915772B1526A79200E550DF /* VerticalTableViewController.m in Sources */,
 				D915773C1527816200E550DF /* SearchNavigationBar.m in Sources */,
-
 				A171464D154F3AE4003A0966 /* VerticalTableViewController_iPad.m in Sources */,
 				A112832A155316A400157887 /* NSData+Base64.m in Sources */,
 				A112832B155316A400157887 /* NSString+SHA1.m in Sources */,
 				A112832C155316A400157887 /* ServerRequest.m in Sources */,
-
+				D9BE1D80155329B5004683D3 /* TourtoiseDataModel.xcdatamodeld in Sources */,
+				D9BE1D83155333ED004683D3 /* Stop.m in Sources */,
+				D9BE1D86155333ED004683D3 /* Media.m in Sources */,
+				D9BE1D89155333EE004683D3 /* Tour.m in Sources */,
+				D9BE1D8C155333EE004683D3 /* Location.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,6 +568,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D9BE1D7E155329B5004683D3 /* TourtoiseDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D9BE1D7F155329B5004683D3 /* TourtoiseDataModel.xcdatamodel */,
+			);
+			currentVersion = D9BE1D7F155329B5004683D3 /* TourtoiseDataModel.xcdatamodel */;
+			name = TourtoiseDataModel.xcdatamodeld;
+			path = Data/TourtoiseDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D92B71901524148A00190963 /* Project object */;
 }

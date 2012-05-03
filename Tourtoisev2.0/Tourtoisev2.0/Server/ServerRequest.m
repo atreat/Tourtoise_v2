@@ -88,7 +88,7 @@
     
     
     
-    [string release];       //memory management
+
 }
 
 
@@ -128,8 +128,8 @@
 #pragma mark - date format
 - (NSString *) formatDateString
 {
-    NSDate *date  = [[[NSDate alloc] init] autorelease];
-    NSDateFormatter *formatter = [[[NSDateFormatter alloc] init] autorelease];
+    NSDate *date  = [[NSDate alloc] init];
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     
     NSTimeZone *gmt = [NSTimeZone timeZoneWithAbbreviation:@"GMT"];
     [formatter setTimeZone:gmt];
